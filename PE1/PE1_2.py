@@ -1,0 +1,1 @@
+print("Item\tPrice\nPen\t$0.01\nMacbook\t$780.00\nVSC\t$0\n------\t------\nTotal\t$780.01")
