@@ -1,14 +1,9 @@
-import os
-
 pyramindBaseLength = int(input("Pyramind base length: "))
 if pyramindBaseLength%2 == 0:
     print("pls odd number :(")
     exit(0)
 elif pyramindBaseLength < 5:
     print("at pleast 5 for the base plz :>")
-    exit(0)
-elif pyramindBaseLength > os.get_terminal_size().columns-50:
-    print("not possible because your console supports " + str(os.get_terminal_size().columns - 50) + " max silly")
     exit(0)
 
 # Make the base that will be used for each level - as each needs to be as
